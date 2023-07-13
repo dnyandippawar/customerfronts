@@ -1,0 +1,43 @@
+
+<p class="heading">
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <img id="logo" src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Wallpapers-pexels-photo.jpg">
+        <span id="logoname">Food Serve</span>
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+          <a routerLink="/chooseitem" routerLinkActive="active">
+            <mat-icon>menu</mat-icon>
+          </a>
+        </button>
+      </mat-toolbar-row>
+<!--   
+      <mat-toolbar-row>
+        <span></span>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with heart icon">       
+            <input type="text" placeholder="search location" id="searchinput" #searchvalue>
+            <button (click)="search(searchvalue)">search</button>
+        </button>
+        <button  mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+         <a routerLink="/cart" routerLinkActive="active"> <mat-icon>add_shopping_cart</mat-icon></a>
+        <a [routerLink]="'/lazy1/cart'"><mat-icon>add_shopping_cart</mat-icon></a> 
+        </button>
+      </mat-toolbar-row> -->
+
+      
+    <mat-toolbar-row>
+      <span></span>
+      <span class="example-spacer"></span>
+      <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <input type="text" placeholder="search location" id="searchinput" #searchvalue>
+        <button (click)="search(searchvalue)">search</button>      </button> -->
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+           <a routerLink="../heading/cart" routerLinkActive="active"> <mat-icon>add_shopping_cart</mat-icon></a>
+      </button>
+    </mat-toolbar-row>
+
+    </mat-toolbar>
+  </p>
+  <router-outlet>
+  </router-outlet>
+ <!-- <a routerLink="./chooseitem" routerLinkActive="active"> <div id="clickme" >click to view</div></a> -->

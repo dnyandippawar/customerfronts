@@ -1,0 +1,67 @@
+.row{
+    background-color: cornflowerblue;
+    padding: 10px 0;
+    text-align: center;
+}
+.cart-detail{
+background-color: greenyellow;
+float: right;
+}
+div h2{
+    text-align: center;
+   
+background-color: orangered;
+}
+.example-card {
+    max-width: 400px;
+    max-height: 500px;
+    margin: 10px;
+    background-color: antiquewhite;
+  
+  }
+  .done{
+    background-color: tomato;
+    border: solid black;
+}
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .description{
+    overflow: scroll;
+  }
+
+@media(max-width:768px){
+    .row{    
+        justify-content: center;
+        text-align: center;
+        padding: 25px 0;
+        margin-top: 20px;
+        width: 100%;
+        border: 2px solid black;
+    }
+    .itemimgname{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    position: unset;
+    }  
+}
+
+@media(min-width:768px){
+.row{    
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 20px;
+    width: 100%;
+    border: 2px solid black;
+}
+.itemimgname{
+height: 300px;
+width: 350px;
+overflow: hidden;
+position: unset;
+}
+}

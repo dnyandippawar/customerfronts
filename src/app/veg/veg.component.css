@@ -1,0 +1,11 @@
+.row{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    padding: 10px 0;
+    text-align: center;
+}
+@media(max-width:768px){
+#action{
+width: 20%;
+}
+}

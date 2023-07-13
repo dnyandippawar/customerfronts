@@ -1,0 +1,192 @@
+@media(max-width:768px){
+    #hotellogo{
+    height: auto;
+    min-height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    }
+    #imgnameadd{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    #hotelimg{
+    width:200px;
+    height: 200px;
+    border:2px solid black;
+    text-align: center;
+    margin: 5px;
+    justify-content: center;
+    }
+    .hotelinfo{
+        height: 100px;
+        font-size: 15px;
+        padding-left: 5px;
+        overflow: scroll;
+        border: 1px solid black;
+    }
+    .hotelinfo h3{
+        font-size:20px;
+    text-align: center;
+    }
+    
+    #hotelnameaddress{
+        width: inherit;  
+        margin: 5px;
+        display: flex;
+        font-size: bold;
+        font-size: 20px;
+        flex-direction: column;
+       text-align: center;
+       justify-content: center;
+    }
+    
+    
+    .row{
+        justify-content: center;
+        text-align: center;
+        padding: 0px 0px;
+        margin-top: 15px;
+        width: 100%;
+        border: 2px solid black;
+    }
+    .itemimgname{
+        width: 300px;
+        height: 200px;
+        overflow: hidden;
+        position: unset;
+    }
+    
+    .desc{
+        vertical-align: text-top;
+        
+    }
+    }
+    
+    
+    @media(min-width:768px){
+        #hotellogo{
+        height: 250px;
+        min-height: 200px;
+        width: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+        }
+        
+        #hotelimg{
+        width: 600px;
+        /* height: 200px; */
+        border:2px solid black;
+        text-align: center;
+        margin: 5px;
+        justify-content: center;
+        }
+        #imgnameadd{
+            display: flex;
+            flex-direction: row;
+            width: 200%;
+    border: 1PX solid black;
+    font-size: 20px;
+           }
+        .hotelinfo{
+            padding-left: 5px;
+            width: 100%;   
+            font-size: 15px;
+            border: 1px solid black;
+            overflow: scroll;
+        }
+        .hotelinfo h3{
+            font-size:20px;
+            text-align: center;
+        }
+        #hotelnameaddress{
+            display: flex;
+            flex-direction: column;
+            width: inherit;
+           
+            text-align: center;
+            justify-content: center;
+            font-size:30px;
+        }
+    
+        .row{
+            
+            justify-content: center;
+            text-align: center;
+            padding: 0px 0;
+            margin-top: 20px;
+            
+            border: 2px solid black;
+        }
+       .itemimgname{
+        height: 300px;
+        width: 350px;
+        overflow: hidden;
+       position: unset;
+       }
+      
+        .img{     
+            height: 400px;
+            width: fit-content;
+            overflow: hidden;
+        }
+        }
+    
+    
+        #vegimg{
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+    
+    #nonvegimg{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    #drinksimg{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    #othersimg{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+    
+    
+    .table ,tr ,td{
+        border: 2px solid black;
+       
+    }
+    #addproduct{
+    
+    background-color: blueviolet;
+    width:100%;
+    
+    }
+    .done{
+        background-color: tomato;
+        border: solid black;
+    }
+    
+    .example-card {
+        max-width: 400px;
+        max-height: 500px;
+        margin: 10px;
+        background-color: antiquewhite;
+        box-shadow: 2px;
+      }
+      
+      .example-header-image {
+        background-image: url('https://media.istockphoto.com/id/655123574/photo/soft-drinks-splashing.jpg?s=612x612&w=0&k=20&c=iZcaMSEuzxLRy2lpnUw9NhnTcOhYNgxA3poBbjCsSSc=');
+        background-size: cover;
+      }
+      .description{
+        overflow: scroll;
+      }

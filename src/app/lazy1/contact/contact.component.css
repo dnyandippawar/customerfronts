@@ -1,0 +1,21 @@
+.contacts{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    }
+    .mob{
+        font-size: 30px;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        background-color: green;
+    }
+    .contact{
+    
+        width: 48%;
+        margin: 1%;
+        height: 300px;
+       background-size: cover;
+        background-image:url(https://de-cix.net/_Resources/Persistent/d/1/a/d/d1ad0d0621a88e0d90cf6b47fd185dd2ab55c1bc/Contact-iStock-1078568932-7114x3725-1200x628.jpg);
+        border-radius: 50%;
+    }

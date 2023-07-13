@@ -1,0 +1,14 @@
+
+<div >
+    <div class="form">
+        <h3>customer registration</h3>
+        <form #register="ngForm" (ngSubmit)="customerregister(register.value)" >
+            <input class="form-input" type="text" ngModel name="name" placeholder="enter name"><br><br>
+            <input class="form-input" type="text" ngModel name="new_passward" placeholder="enter new passward"><br><br>
+            <input class="form-input" type="text" ngModel name="repassward" placeholder="enter repassward"><br><br>
+            <input class="form-input" type="number" ngModel name="mob_number" placeholder="enter mobile number"><br><br>
+            <input class="form-input" type="email" ngModel name="email" placeholder="enter email"><br><br>
+            <button class="form-input">submit</button>
+        </form>
+    </div>
+    </div>

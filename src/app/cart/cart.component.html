@@ -1,0 +1,63 @@
+<div >
+    <div class="bootstrap-wrapper">
+        <div class="container">
+            <div class="row" >
+                   <div class="col-md-3 col-sm-3" id="drinksimg">CART</div>
+                   <div class="col-md-6 col-sm-6" id="drinksimg"></div>
+                   <div class="col-md-3 col-sm-3" id="othersimg"><a routerLink="" routerLinkActive="">CANSEL ORDER</a></div>    
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="cart-detail">
+    <!-- <p>TOTAL SELECTED ITEM :{{selecteditem}} </p> -->
+    <!-- <p>TOTAL RS :{{totalprice}} </p> -->
+    <!-- <p>GRAND TOTAL RS______:{{totalgrandprice}} </p> -->
+    <a routerLink="/userlogin" routerLinkActive="active"><H2>PLACE ORDER</H2></a>
+    </div>
+    
+    <div class="bootstrap-wrapper">
+      <div class="container">
+        <div class="row">
+          <mat-card class="example-card" *ngFor="let productitem of productitems ">
+            <!-- Card header -->
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>: {{ productitem}}</mat-card-title>
+              <mat-card-subtitle>
+                Price: {{ productitem }} Category: {{ productitem }}
+              </mat-card-subtitle>
+            </mat-card-header>
+    
+            <!-- Product image -->
+            <img class="itemimgname" [src]="productitem" alt="product image">
+    
+            <!-- Card content -->
+            <mat-card-content>
+              <p class="description">
+                {{ productitem }}
+              </p>
+            </mat-card-content>
+    
+            <!-- Card actions -->
+            <mat-card-actions>
+              <button class="done" (click)="delete(productitem)">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- 
+    <div *ngFor="let productitem of productitems | keyvalue">
+    <div>{{productitem.key}}{{productitem.value}}</div>
+    <img class="itemimgname" [src]="productitem.value" alt="product image">
+           
+    </div>  -->
+    
+    </div>

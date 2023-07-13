@@ -1,0 +1,31 @@
+*{
+    background-color: cornflowerblue;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  #logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  #logoname{
+  font-size:25px;
+  color: greenyellow;
+  margin-left: 20px;
+  }
+  .heading{
+    border: 2px solid black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  #clickme{
+    padding: 30px;
+    border: 2px solid black;
+    box-shadow: 10px;
+    text-align: center;
+    border-radius: 40px;
+  }
